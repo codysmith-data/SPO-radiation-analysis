@@ -49,7 +49,7 @@ Modules needed for this project:
 
 The only module not included with Anaconda is plotly.
 
-For a quick install, type:
+For a quick install, type in your Anaconda console:
 
 **pip install plotly**
 
