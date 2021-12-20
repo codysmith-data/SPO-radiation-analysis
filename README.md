@@ -82,7 +82,7 @@ Now check graphs and results folders!
 
 main.py - master file for running all other files
 
-get_data.py - obtains the data from the NOAA data and savesthe files to the working directory defined in main.py
+get_data.py - obtains the data from the NOAA database and saves the files to the working directory defined in main.py
 
 parse_data.py - takes raw data files and parses them into .csv files for better handling
 
