@@ -36,15 +36,25 @@ https://www.anaconda.com/products/individual
 Please use this setup for best results.
 
 Modules needed for this project:
+
 	requests
+
 	zipfile
+
 	io
+
 	BeautifulSoup
+
 	shutil
+
 	csv
+
 	pandas
-	numpy
+
+	nump
+
 	matplotlib
+
 	plotly
 
 The only module not included with Anaconda is plotly.
