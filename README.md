@@ -56,7 +56,8 @@ plot_data.py - plots all data into raw radiation plots and binary radiation plot
 find_results.py - finds the total amount of hours of radiation for each month and writes the results to a .txt file
 
 Folders:
-raw-data: holds all the raw data from the NOAA database\n
+raw-data: holds all the raw data from the NOAA database
+
 filtered-data: holds all the parsed/filtered .csv files
 graphs: holds all the graphs made for the radiation data
 results: holds the .txt file containing the results
