@@ -53,7 +53,7 @@ For a quick install, type in your Anaconda console:
 
 **pip install plotly**
 
-From this GitHub project, dowload a .zip of each file. Then extract to your folder of choice.
+From this GitHub project, dowload the .zip of the files. Then extract to your folder of choice.
 
 Once setup is complete, open main.py in Anaconda.
 
