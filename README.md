@@ -32,11 +32,10 @@ Modules needed for this project:
 	plotly
 
 The only module not included with Anaconda is plotly.
-***
+
 For a quick install, type:
 
 pip install plotly
-***
 
 Once setup is complete, open main.py in Anaconda.
 This is the master for the whole project, and the only file that needs to be opened (specifcally for running the project).
