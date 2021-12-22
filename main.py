@@ -28,7 +28,7 @@ def main():
     """
     
     ### USER SET WORKING DIRECTORY ###
-    working_directory = r"C:\Users\crsmi\OneDrive\Desktop\SPO-radiation-analysis-main"
+    working_directory = r"SET YOUR WORKING FILE PATH HERE"
     
     #Fetching data (See get_data.py)
     get_data(working_directory)
