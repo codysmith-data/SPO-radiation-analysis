@@ -51,7 +51,7 @@ Modules needed for this project:
 
 	pandas
 
-	nump
+	numpy
 
 	matplotlib
 
