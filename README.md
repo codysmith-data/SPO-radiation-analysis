@@ -57,6 +57,8 @@ Modules needed for this project:
 
 	plotly
 
+	webbrowser
+
 The only module not included with Anaconda is plotly.
 
 For a quick install, type in your Anaconda console:
@@ -107,7 +109,7 @@ results: holds the .txt file containing the results
 ------------------------
 **RESULTS DISCUSSION**
 
-First, please check the graphs folder for interactive plots on the average sufficient solar radiation for each month. This will be the HTML files.
+Now, the interactive plots on the average sufficient solar radiation for each month will have been automatically opened in a browser.
 
 The sun's radiation at the Earth's surface is measured at 1000 W/m^2.
 So anything less than that means that the skies aren't clear.
