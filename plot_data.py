@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import os
 import shutil
+import webbrowser
 
 def html_scatter_plot(data, labels, title, path):
     """
@@ -113,6 +114,8 @@ def plot_data(working_directory, all_data, nov_mean_binary, dec_mean_binary, jan
                 plt.title(f'January {year} Direct Radiation')
                 plt.savefig(working_directory + '\\graphs\\radiation-graphs\\january-radiation-graphs\\' + f'jan_{year}_radiation.png', dpi=300)
                 
+            plt.close()
+                
             #Graphing binary
             plt.figure()
             plt.scatter(all_data[i][j].index, all_data[i][j][1], s=1)
@@ -131,6 +134,8 @@ def plot_data(working_directory, all_data, nov_mean_binary, dec_mean_binary, jan
             else:
                 plt.title(f'January {year} Binary Radiation')
                 plt.savefig(working_directory + '\\graphs\\binary-graphs\\january-binary-graphs\\' + f'jan_{year}_binary.png', dpi=300)
+                
+            plt.close()
     
     #Plotting average binary radiation for each month
     #November
@@ -153,3 +158,14 @@ def plot_data(working_directory, all_data, nov_mean_binary, dec_mean_binary, jan
                       title = 'Average January Binary Radiation',
                       path = working_directory + '\\graphs\\' + 'jan_avg_binary.html'
                       )
+    
+    #Opening plots
+    new = 2 #Opens in new tab if possible
+    
+    nov_url = "file://" + working_directory + "\\graphs\\nov_avg_binary.html"
+    dec_url = "file://" + working_directory + "\\graphs\\dec_avg_binary.html"
+    jan_url = "file://" + working_directory + "\\graphs\\jan_avg_binary.html"
+    
+    webbrowser.open(nov_url, new=new)
+    webbrowser.open(dec_url, new=new)
+    webbrowser.open(jan_url, new=new)
