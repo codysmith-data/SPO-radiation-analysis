@@ -132,7 +132,7 @@ The binary graph for Dec. 1995 is given as an example again.
 
 The binary data for each month was averaged across every year. This was to get an idea of what the "average" December in the South Pole can expect for clear skies time.
 
-**Navigate to the graphs folder to see what these plots look like.**
+**These should have opened automatically in a web browser.**
 
 These plots are interactive HTML files. Feel free to play around with the plots!
 
